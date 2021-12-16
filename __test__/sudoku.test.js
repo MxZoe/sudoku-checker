@@ -29,5 +29,9 @@ describe(Sudoku, () => {
 
   });  
 
+  test('should return a row from reusablePuzzle.rows of the specificed index', () => {
+    expect(reusablePuzzle.checkRow(0)).toEqual(reusablePuzzle.rows[0]);
+  })
+
 
 })

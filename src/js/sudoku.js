@@ -3,4 +3,7 @@ export default class Sudoko{
     this.rows = rows;
   }
 
+  checkRow(index){
+    return this.rows[index];
+  }
 }
