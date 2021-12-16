@@ -21,13 +21,13 @@ it is valid when: each row only contains numbers 1-9 with no repeats
 Take in a sudoku-puzzle array.
 check each row - function(anArray)
 
-constructing a puzzle object
+<!-- constructing a puzzle object
 test to make sure the constructor works
 notEmpy()
-full() [[9x9]]
+full() [[9x9]] -->
 
 ________
-fuction checkRow(anArray)
+function checkRow(anArray)
 check = [1,2,3,4,5,6,7,8,9] 
 anArray.sort();
 anArray === check;

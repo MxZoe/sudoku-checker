@@ -37,5 +37,9 @@ describe(Sudoku, () => {
     expect(reusablePuzzle.checkRow(0)).toEqual(true);
   })
 
+  test("should return true if the row matches a reference row", () =>{
+    expect(reusablePuzzle.checkRow(0)).toEqual(true);
+  })
+
 
 })
