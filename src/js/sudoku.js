@@ -4,6 +4,11 @@ export default class Sudoko{
   }
 
   checkRow(index){
-    return this.rows[index];
-  }
+    if(this.rows[index].length === 9){
+      return true;
+    } else {
+      return false;
+    }
+  } 
+  
 }

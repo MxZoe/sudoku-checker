@@ -29,8 +29,12 @@ describe(Sudoku, () => {
 
   });  
 
-  test('should return a row from reusablePuzzle.rows of the specificed index', () => {
-    expect(reusablePuzzle.checkRow(0)).toEqual(reusablePuzzle.rows[0]);
+  test('should return true if a row from reusablePuzzle.rows of the specificed index is valid', () => {
+    expect(reusablePuzzle.checkRow(0)).toEqual(true);
+  })
+
+  test("should return true if the row is 9 digits long", () => {
+    expect(reusablePuzzle.checkRow(0)).toEqual(true);
   })
 
 
